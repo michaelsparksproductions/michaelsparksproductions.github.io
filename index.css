@@ -22,12 +22,15 @@ h1 {font-family: 'Ubuntu Condensed', sans-serif;
 
 
 Footer {
-	width: auto;
-	height: auto;
-	color: black;
+	position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 70px;
+        background-color: white;
+        color: black;
         text-align: center;
-        margin-top: 1000px;
-    }
+        width: 100%;
+}
     
     
 
