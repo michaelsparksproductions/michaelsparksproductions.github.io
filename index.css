@@ -134,19 +134,19 @@ h3 {
 }
 @-webkit-keyframes slideRight {
   0% {
-    transform: translateX(-100%);
+    transform: translateX(-110%);
   }
   100% {
-    transform: translateX(300%);
+    transform: translateX(340%);
   }
 }
 
 @keyframes slideRight {
   0% {
-    transform: translateX(-100%);
+    transform: translateX(-110%);
 }
   100% {
-    transform: translateX(300%);
+    transform: translateX(340%);
   }
 }
 
@@ -170,18 +170,18 @@ h3 {
 }
 @-webkit-keyframes slideLeft {
   0% {
-    transform: translateX(300%);
+    transform: translateX(340%);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-110%);
   }
 }
 
 @keyframes slideLeft {
   0% {
-    transform: translateX(300%);
+    transform: translateX(340%);
 }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-110%);
   }
 }
