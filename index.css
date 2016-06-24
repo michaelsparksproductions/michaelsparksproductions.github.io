@@ -144,7 +144,7 @@ h3 {
 
 @keyframes slideRight {
   0% {
-    transform: translateX(-100%);
+    transform: translateX(-150%);
 }
   100% {
     transform: translateX(300%);
@@ -152,11 +152,11 @@ h3 {
 }
 
 #cloud2 {
-    width: 75%;
-    height: 75%;
+    width: 50%;
+    height: 50%;
     animation-name: slideLeft;
     -webkit-animation-name: slideLeft;
-    transform: translateX(-300%);
+    transform: translateX(-150%);
     position: fixed;
 
     animation-timing-function: ease-in-out;    
@@ -177,7 +177,7 @@ h3 {
     transform: translateX(300%);
   }
   100% {
-    transform: translateX(-300%);
+    transform: translateX(-150%);
   }
 }
 
@@ -186,6 +186,6 @@ h3 {
     transform: translateX(300%);
 }
   100% {
-    transform: translateX(-300%);
+    transform: translateX(-150%);
   }
 }
