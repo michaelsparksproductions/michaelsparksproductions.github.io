@@ -150,3 +150,40 @@ h3 {
     transform: translateX(300%);
   }
 }
+
+#cloud2 {
+    animation-name: slideLeft;
+    -webkit-animation-name: slideLeft;
+    transform: translateX(-200%);
+    position: fixed;
+
+    animation-timing-function: ease-in-out;    
+    -webkit-animation-timing-function: ease-in-out; 
+    
+    animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    
+    animation-duration: 20s;
+    -webkit-animation-duration: 20s;
+
+    visibility: visible !important;
+}
+@-webkit-keyframes slideLeft {
+  0% {
+    transform: translateX(200%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(200%);
+}
+  100% {
+    transform: translateX(-200%);
+  }
+}
