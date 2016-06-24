@@ -117,14 +117,14 @@ h3 {
 #cloud {
     animation-name: slideRight;
     -webkit-animation-name: slideRight;
-    transform: translateX(300%);
+    transform: translateX(400%);
     position: fixed;
 
     animation-duration: 10s;
     -webkit-animation-duration: 10s;
 
-    animation-timing-function: ease;    
-    -webkit-animation-timing-function: ease; 
+    animation-timing-function: liner;    
+    -webkit-animation-timing-function: linear; 
     
     animation-iteration-count: infinite;
     -moz-animation-iteration-count: infinite;
@@ -138,7 +138,7 @@ h3 {
     transform: translateX(-100%);
   }
   100% {
-    transform: translateX(500%);
+    transform: translateX(400%);
   }
 }
 
@@ -147,6 +147,6 @@ h3 {
     transform: translateX(-100%);
 }
   100% {
-    transform: translateX(500%);
+    transform: translateX(400%);
   }
 }
