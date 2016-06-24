@@ -130,29 +130,29 @@ h3 {
 }
 @-webkit-keyframes slideRight {
   0% {
-    transform: translateX(-25%);
+    transform: translateX(0%);
   }
   25% {
-    transform: translateX(50%);
+    transform: translateX(25%);
   }
   50% {
-    transform: translateX(150%);
+    transform: translateX(50%);
   }
   100% {
-    transform: translateX(200%);
+    transform: translateX(100%);
   }
 }
 @keyframes slideRight {
   0% {
-    transform: translateX(-25%);
+    transform: translateX(0%);
   }
   25% {
-    transform: translateX(50%);
+    transform: translateX(25%);
   }
   50% {
-    transform: translateX(150%);
+    transform: translateX(50%);
   }
   100% {
-    transform: translateX(200%);
+    transform: translateX(100%);
   }
 }
