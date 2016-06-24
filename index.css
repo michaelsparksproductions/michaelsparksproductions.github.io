@@ -127,8 +127,8 @@ h3 {
     -webkit-animation-iteration-count: infinite;
     -o-animation-iteration-count: infinite;
     
-    animation-duration: 10s;
-    -webkit-animation-duration: 10s;
+    animation-duration: 15s;
+    -webkit-animation-duration: 15s;
 
     visibility: visible !important;
 }
@@ -137,7 +137,7 @@ h3 {
     transform: translateX(-150%);
   }
   100% {
-    transform: translateX(350%);
+    transform: translateX(400%);
   }
 }
 
@@ -146,7 +146,7 @@ h3 {
     transform: translateX(-150%);
 }
   100% {
-    transform: translateX(300%);
+    transform: translateX(400%);
   }
 }
 
