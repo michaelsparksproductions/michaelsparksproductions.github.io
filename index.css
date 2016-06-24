@@ -118,7 +118,9 @@ h3 {
 
 #cloud {
     animation-name: slideRight;
-    -webkit-animation-name: slideRight;    
+    -webkit-animation-name: slideRight;
+    transform: translateX(125%);
+    position: fixed;
 
     animation-duration: 10s;
     -webkit-animation-duration: 10s;
