@@ -1,5 +1,5 @@
-html {
-	color: black;
+body {
+	background-color: blue;
 }
 
 h1 {font-family: 'Ubuntu Condensed', sans-serif;
@@ -20,6 +20,8 @@ h1 {font-family: 'Ubuntu Condensed', sans-serif;
 Footer {
     text-align: center;
     }
+    
+    
 
  h1 {font-family: 'Ubuntu Condensed', sans-serif;
           text-align: center;
