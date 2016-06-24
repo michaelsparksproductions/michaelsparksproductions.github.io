@@ -1,8 +1,8 @@
 body {
 	background-image: url (https://michaelsparksproductions.github.io/cloud.jpg);
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-position: center center;
-	background-size: 100% 100%;
+	
 }
 
 h1 {font-family: 'Ubuntu Condensed', sans-serif;
