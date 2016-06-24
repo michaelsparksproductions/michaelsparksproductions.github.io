@@ -1,7 +1,5 @@
 body {
-	background-image: url (https://michaelsparksproductions.github.io/cloud.jpg);
-	background-repeat: repeat;
-	background-position: center center;
+	
 	
 }
 
@@ -55,7 +53,7 @@ Footer {
 h3 {font-family: 'Ubuntu Condensed', sans-serif;
           text-align: center;
           font-size: 20px;
-		  color: black;
+	  color: black;
           letter-spacing: .5px;
     }
 
@@ -119,11 +117,11 @@ h3 {
 #cloud {
     animation-name: slideRight;
     -webkit-animation-name: slideRight;
-    transform: translateX(200%);
+    transform: translateX(300%);
     position: fixed;
 
-    animation-duration: 20s;
-    -webkit-animation-duration: 20s;
+    animation-duration: 10s;
+    -webkit-animation-duration: 10s;
 
     animation-timing-function: ease;    
     -webkit-animation-timing-function: ease; 
@@ -140,7 +138,7 @@ h3 {
     transform: translateX(-200%);
   }
   100% {
-    transform: translateX(200%);
+    transform: translateX(300%);
   }
 }
 
@@ -149,6 +147,6 @@ h3 {
     transform: translateX(-200%);
 }
   100% {
-    transform: translateX(200%);
+    transform: translateX(300%);
   }
 }
