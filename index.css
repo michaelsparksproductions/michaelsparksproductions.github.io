@@ -127,8 +127,8 @@ h3 {
     -webkit-animation-iteration-count: infinite;
     -o-animation-iteration-count: infinite;
     
-    animation-duration: 15s;
-    -webkit-animation-duration: 15s;
+    animation-duration: 25s;
+    -webkit-animation-duration: 25s;
 
     visibility: visible !important;
 }
@@ -163,8 +163,8 @@ h3 {
     -webkit-animation-iteration-count: infinite;
     -o-animation-iteration-count: infinite;
     
-    animation-duration: 20s;
-    -webkit-animation-duration: 20s;
+    animation-duration: 24s;
+    -webkit-animation-duration: 24s;
 
     visibility: visible !important;
 }
