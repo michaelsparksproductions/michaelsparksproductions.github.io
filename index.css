@@ -138,7 +138,7 @@ h3 {
     transform: translateX(-100%);
   }
   100% {
-    transform: translateX(300%);
+    transform: translateX(350%);
   }
 }
 
@@ -147,7 +147,7 @@ h3 {
     transform: translateX(-100%);
 }
   100% {
-    transform: translateX(300%);
+    transform: translateX(350%);
   }
 }
 
@@ -172,18 +172,18 @@ h3 {
 }
 @-webkit-keyframes slideLeft {
   0% {
-    transform: translateX(300%);
+    transform: translateX(350%);
   }
   100% {
-    transform: translateX(-200%);
+    transform: translateX(-300%);
   }
 }
 
 @keyframes slideLeft {
   0% {
-    transform: translateX(300%);
+    transform: translateX(350%);
 }
   100% {
-    transform: translateX(-200%);
+    transform: translateX(-300%);
   }
 }
