@@ -14,7 +14,10 @@ h1 {font-family: 'Ubuntu Condensed', sans-serif;
 
 
 Footer {
-    text-align: center;
+	width: auto;
+	height: auto;
+	color: black;
+        text-align: center;
     }
     
     
