@@ -161,7 +161,8 @@ h3 {
 }
 
 #cloud2 {
-	padding-bottom:auto;
+	height: 100%;
+	padding-bottom: auto;
 }
 #cloud2 {
     animation-name: slideLeft;
