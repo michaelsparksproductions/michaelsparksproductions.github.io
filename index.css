@@ -119,15 +119,14 @@ h3 {
 #cloud {
   width: 100px;
   height: 100px;
-  background: plum;
-  transform: translateX(100%);
+  transform: translateX(1000%);
   position: fixed;
-  -webkit-animation: anim 3.5s 1;
-  animation: anim 3.5s 1;
+  -webkit-animation: anim 8s;
+  animation: anim 8s;
 }
 @-webkit-keyframes anim {
   0% {
-    transform: translateX(100%);
+    transform: translateX(-100%);
   }
   14.28% {
     transform: translateX(0);
@@ -136,12 +135,12 @@ h3 {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(100%);
+    transform: translateX(1000%);
   }
 }
 @keyframes anim {
   0% {
-    transform: translateX(100%);
+    transform: translateX(-100%);
   }
   14.28% {
     transform: translateX(0);
@@ -150,6 +149,6 @@ h3 {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(100%);
+    transform: translateX(1000%);
   }
 }
