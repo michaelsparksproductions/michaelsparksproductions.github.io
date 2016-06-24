@@ -154,7 +154,7 @@ h3 {
 #cloud2 {
     animation-name: slideLeft;
     -webkit-animation-name: slideLeft;
-    transform: translateX(-200%);
+    transform: translateX(-300%);
     position: fixed;
 
     animation-timing-function: ease-in-out;    
@@ -172,7 +172,7 @@ h3 {
 }
 @-webkit-keyframes slideLeft {
   0% {
-    transform: translateX(200%);
+    transform: translateX(300%);
   }
   100% {
     transform: translateX(-200%);
@@ -181,7 +181,7 @@ h3 {
 
 @keyframes slideLeft {
   0% {
-    transform: translateX(200%);
+    transform: translateX(300%);
 }
   100% {
     transform: translateX(-200%);
