@@ -8,6 +8,7 @@ body {
 	width: auto;
 	height: auto;
 	margin: auto;
+	padding-bottom:100%;
 }
 
 h1 {font-family: 'Ubuntu Condensed', sans-serif;
