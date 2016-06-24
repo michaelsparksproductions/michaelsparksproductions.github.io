@@ -139,26 +139,15 @@ h3 {
   0% {
     transform: translateX(-100%);
   }
-  25% {
-    transform: translateX(50%);
-  }
-  50% {
-    transform: translateX(125%);
-  }
   100% {
     transform: translateX(350%);
   }
 }
+
 @keyframes slideRight {
   0% {
     transform: translateX(-100%);
-  }
-  25% {
-    transform: translateX(50%);
-  }
-  50% {
-    transform: translateX(125%);
-  }
+}
   100% {
     transform: translateX(350%);
   }
