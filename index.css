@@ -116,12 +116,40 @@ h3 {
     }    
 }
 
-#cloud img {
-    position: relative;
-    top: 0px;
-    transition: transform 8s ease-in-out;
+#cloud {
+  width: 100px;
+  height: 100px;
+  background: plum;
+  transform: translateX(100%);
+  position: fixed;
+  -webkit-animation: anim 3.5s 1;
+  animation: anim 3.5s 1;
 }
-
-#cloud img: hover {
-    transform: translate3d(1000px, 0px, 0px);
+@-webkit-keyframes anim {
+  0% {
+    transform: translateX(100%);
+  }
+  14.28% {
+    transform: translateX(0);
+  }
+  85.71% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+@keyframes anim {
+  0% {
+    transform: translateX(100%);
+  }
+  14.28% {
+    transform: translateX(0);
+  }
+  85.71% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
 }
