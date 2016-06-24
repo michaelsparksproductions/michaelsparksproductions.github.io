@@ -117,36 +117,40 @@ h3 {
 }
 
 #cloud {
-  width: 100px;
-  height: 100px;
-  transform: translateX(1000%);
-  position: fixed;
-  -webkit-animation: anim 8s;
-  animation: anim 8s;
+    animation-name: slideRight;
+    -webkit-animation-name: slideRight;    
+
+    animation-duration: 7s;
+    -webkit-animation-duration: 7s;
+
+    animation-timing-function: ease;    
+    -webkit-animation-timing-function: ease;    
+
+    visibility: visible !important;
 }
-@-webkit-keyframes anim {
+@-webkit-keyframes slideRight {
   0% {
     transform: translateX(-100%);
   }
-  14.28% {
-    transform: translateX(0);
+  25% {
+    transform: translateX(0%);
   }
-  85.71% {
-    transform: translateX(0);
+  50% {
+    transform: translateX(100%);
   }
   100% {
     transform: translateX(1000%);
   }
 }
-@keyframes anim {
+@keyframes slideRight {
   0% {
     transform: translateX(-100%);
   }
-  14.28% {
-    transform: translateX(0);
+  25% {
+    transform: translateX(0%);
   }
-  85.71% {
-    transform: translateX(0);
+  50% {
+    transform: translateX(100%);
   }
   100% {
     transform: translateX(1000%);
