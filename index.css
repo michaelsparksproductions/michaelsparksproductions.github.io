@@ -137,7 +137,7 @@ h3 {
 }
 @-webkit-keyframes slideRight {
   0% {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
   25% {
     transform: translateX(50%);
@@ -151,7 +151,7 @@ h3 {
 }
 @keyframes slideRight {
   0% {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
   25% {
     transform: translateX(50%);
