@@ -47,14 +47,14 @@ Footer {
     }
 }
 
-h2 {font-family: 'Ubuntu Condensed', sans-serif;
+h3 {font-family: 'Ubuntu Condensed', sans-serif;
           text-align: center;
           font-size: 20px;
 		  color: black;
           letter-spacing: .5px;
     }
 
-h2 {
+h3 {
     animation-name: slideDown;
     -webkit-animation-name: slideDown;    
 
