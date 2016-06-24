@@ -4,6 +4,12 @@ html {
 	
 }
 
+body {
+	width: auto;
+	height: auto;
+	margin: auto;
+}
+
 h1 {font-family: 'Ubuntu Condensed', sans-serif;
           text-align: center;
           font-size: 40px;
@@ -152,7 +158,7 @@ h3 {
 }
 
 #cloud2 {
-	height:100%;
+	margin-bottom: 50px;
 }
 #cloud2 {
     animation-name: slideLeft;
