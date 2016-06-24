@@ -160,6 +160,7 @@ h3 {
 
 #cloud2 {
 	margin-bottom: 50px;
+	padding-bottom:100%;
 }
 #cloud2 {
     animation-name: slideLeft;
