@@ -2,6 +2,10 @@ body {
 	margin-bottom: auto;
 }
 
+#footer {
+	margin-top: 100px;
+}
+
 h1 {font-family: 'Ubuntu Condensed', sans-serif;
           text-align: center;
           font-size: 40px;
