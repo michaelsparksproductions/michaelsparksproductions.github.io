@@ -2,7 +2,6 @@ body {
 	height: 100000px;
 	width: auto;
 	margin-bottom: auto;
-	position: relative;
 }
 
 h1 {font-family: 'Ubuntu Condensed', sans-serif;
@@ -128,7 +127,7 @@ h3 {
 #cloud {
     animation-name: slideRight;
     -webkit-animation-name: slideRight;
-    position: relative;
+    position: absolute;
 
     animation-timing-function: ease-in-out;    
     -webkit-animation-timing-function: ease-in-out; 
@@ -164,7 +163,7 @@ h3 {
 #cloud2 {
     animation-name: slideLeft;
     -webkit-animation-name: slideLeft;
-    position: relative;
+    position: absolute;
 
     animation-timing-function: ease-in-out;    
     -webkit-animation-timing-function: ease-in-out; 
