@@ -1,3 +1,9 @@
+html {
+    display: block;
+    width: 100%, overflow:hidden;
+}
+
+
 body {
 	height: 100000px;
 	width: auto;
