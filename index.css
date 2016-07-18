@@ -1,6 +1,7 @@
 body {
 	height: 100000px;
 	width: auto;
+	overflow: hidden;
 	margin-bottom: auto;
 }
 
