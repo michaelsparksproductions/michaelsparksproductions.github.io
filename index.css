@@ -1,13 +1,8 @@
-html {
-    display: block;
-    width: 100%;
-}
-
-
 body {
 	height: 100000px;
 	width: 100%;
 	margin-bottom: auto;
+	overflow-y: hidden;
 }
 
 h1 {font-family: 'Ubuntu Condensed', sans-serif;
