@@ -128,8 +128,7 @@ h3 {
 #cloud {
     animation-name: slideRight;
     -webkit-animation-name: slideRight;
-    width: 100%;
-    position: absolute;
+    position: relative;
 
     animation-timing-function: ease-in-out;    
     -webkit-animation-timing-function: ease-in-out; 
@@ -165,8 +164,7 @@ h3 {
 #cloud2 {
     animation-name: slideLeft;
     -webkit-animation-name: slideLeft;
-    width: 100%;
-    position: absolute;
+    position: relative;
 
     animation-timing-function: ease-in-out;    
     -webkit-animation-timing-function: ease-in-out; 
