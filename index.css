@@ -1,7 +1,8 @@
 body {
 	height: 100000px;
-	width: 1080px;
+	width: auto;
 	margin-bottom: auto;
+	position: absolute;
 }
 
 h1 {font-family: 'Ubuntu Condensed', sans-serif;
