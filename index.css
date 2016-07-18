@@ -1,7 +1,6 @@
 body {
 	height: 100000px;
 	width: auto;
-	overflow: hidden;
 	margin-bottom: auto;
 }
 
@@ -129,6 +128,7 @@ h3 {
     animation-name: slideRight;
     -webkit-animation-name: slideRight;
     position: absolute;
+    overflow: hidden;
 
     animation-timing-function: ease-in-out;    
     -webkit-animation-timing-function: ease-in-out; 
@@ -165,6 +165,7 @@ h3 {
     animation-name: slideLeft;
     -webkit-animation-name: slideLeft;
     position: absolute;
+    overflow: hidden;
 
     animation-timing-function: ease-in-out;    
     -webkit-animation-timing-function: ease-in-out; 
