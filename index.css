@@ -2,7 +2,7 @@ body {
 	height: 100000px;
 	width: auto;
 	margin-bottom: auto;
-	position: absolute;
+	position: relative;
 }
 
 h1 {font-family: 'Ubuntu Condensed', sans-serif;
