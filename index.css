@@ -1,5 +1,6 @@
 html {    background-image: url(space.gif);
-  	  background-repeat: repeat-x, repeat-y;
+  	  background-repeat: repeat;
+	  background-attachment: fixed;
   
 }
 
