@@ -2,15 +2,16 @@ html {
   
 }
 
-body {  background-image: url(space.gif);
-  	background-repeat: repeat-x, repeat-y; 
+body {  
 	height: 100000px;
 	width: 100%;
 	margin-bottom: auto;
 	overflow-x: hidden;
 }
 
-h1 {font-family: 'Ubuntu Condensed', sans-serif;
+h1 {	  background-image: url(space.gif);
+  	  background-repeat: repeat-x, repeat-y;
+	  font-family: 'Ubuntu Condensed', sans-serif;
           text-align: center;
           font-size: 40px;
           letter-spacing: .5px;
