@@ -1,26 +1,30 @@
-html {    background: linear-gradient(1deg, #4b6cb7, #182848, #000000);
+html { background: linear-gradient(1deg, #4b6cb7, #182848, #000000);
 background-size: 600% 600%;
+-webkit-animation: Backg 9s ease infinite;
+-moz-animation: Backg 9s ease infinite;
+-o-animation: Backg 9s ease infinite;
+	animation: Backg 9s ease infinite;}
 
--webkit-animation: BG 9s ease infinite;
--moz-animation: BG 9s ease infinite;
-animation: BG 9s ease infinite;
-
-@-webkit-keyframes BG {
+@-webkit-keyframes Backg {
     0%{background-position:52% 0%}
     50%{background-position:49% 100%}
     100%{background-position:52% 0%}
 }
-@-moz-keyframes BG {
+@-moz-keyframes Backg {
     0%{background-position:52% 0%}
     50%{background-position:49% 100%}
     100%{background-position:52% 0%}
 }
-@keyframes BG { 
+@-o-keyframes Backg {
     0%{background-position:52% 0%}
     50%{background-position:49% 100%}
     100%{background-position:52% 0%}
 }
-
+@keyframes Backg {
+    0%{background-position:52% 0%}
+    50%{background-position:49% 100%}
+    100%{background-position:52% 0%}
+}
 
 body {  
 	height: 100000px;
