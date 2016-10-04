@@ -1,26 +1,25 @@
 html {    background: linear-gradient(1deg, #4b6cb7, #182848, #000000);
 background-size: 600% 600%;
 
--webkit-animation: AnimationName 9s ease infinite;
--moz-animation: AnimationName 9s ease infinite;
-	animation: AnimationName 9s ease infinite; }
+-webkit-animation: BG 9s ease infinite;
+-moz-animation: BG 9s ease infinite;
+animation: BG 9s ease infinite;
 
-@-webkit-keyframes AnimationName {
+@-webkit-keyframes BG {
     0%{background-position:52% 0%}
     50%{background-position:49% 100%}
     100%{background-position:52% 0%}
 }
-@-moz-keyframes AnimationName {
+@-moz-keyframes BG {
     0%{background-position:52% 0%}
     50%{background-position:49% 100%}
     100%{background-position:52% 0%}
 }
-@keyframes AnimationName { 
+@keyframes BG { 
     0%{background-position:52% 0%}
     50%{background-position:49% 100%}
     100%{background-position:52% 0%}
 }
-  
 
 
 body {  
