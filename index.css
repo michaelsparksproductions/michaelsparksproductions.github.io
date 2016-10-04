@@ -1,9 +1,9 @@
 html { background: linear-gradient(1deg, #4b6cb7, #182848, #000000);
 background-size: 600% 600%;
--webkit-animation: Backg 9s ease infinite;
--moz-animation: Backg 9s ease infinite;
--o-animation: Backg 9s ease infinite;
-	animation: Backg 9s ease infinite;}
+-webkit-animation: Backg 24s ease infinite;
+-moz-animation: Backg 24s ease infinite;
+-o-animation: Backg 24s ease infinite;
+	animation: Backg 24s ease infinite;}
 
 @-webkit-keyframes Backg {
     0%{background-position:52% 0%}
