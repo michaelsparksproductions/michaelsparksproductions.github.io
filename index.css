@@ -1,4 +1,5 @@
-html {    
+html {    background-image: url(space.gif);
+  	  background-repeat: repeat-x, repeat-y;
   
 }
 
