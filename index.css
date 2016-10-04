@@ -1,5 +1,5 @@
 html {    background-image: url(test.png);
-  	  background-repeat: no-repeat;
+  	  background-repeat: repeat;
 	  background-attachment: fixed;
   
 }
@@ -46,7 +46,7 @@ Footer {
  h1 {font-family: 'Ubuntu Condensed', sans-serif;
           text-align: center;
           font-size: 50px;
-	  color: white;
+	  color: black;
           letter-spacing: .5px;
           text-shadow: -2px 2px 2px #999999;
           line-height: 150%;
