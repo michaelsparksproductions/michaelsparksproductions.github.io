@@ -3,6 +3,21 @@
 <div>
   <head>
 
+
+<script>
+function start_scroll_down() { 
+   scroll = setInterval(function(){ window.scrollBy(0, 1000); console.log('start');}, 1500);
+}
+
+function stop_scroll_down() {
+   clearInterval(scroll);
+   console.log('stop');
+}
+</script>
+<button onclick="start_scroll_down();">Start Scroll</button>
+<button onclick="stop_scroll_down();">Stop Scroll</button>
+
+	  
      <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="index.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -10,9 +25,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 	<link href="//fonts.googleapis.com/css?family=Bungee+Hairline|Josefin+Sans|Permanent+Marker|Ubuntu+Condensed|Yatra+One" rel="stylesheet">
  
-	  <script language="javascript">
-<body onLoad="pageScroll()">
-	  </script>
+	 
   <title> Michael Sparks Productions!</title>
   </head>
   <body>
