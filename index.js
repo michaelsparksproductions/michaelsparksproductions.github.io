@@ -1,2 +1,1 @@
-$('html,body').animate({ scrollTop: 9999}, 'slow');
-
+$('html,body').animate({ scrollTop: 9999 }, 'slow');
