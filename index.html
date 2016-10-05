@@ -47,7 +47,13 @@
    <script type="text/javascript">
   $("document").ready(function() {
   	$("#heading").css("margin","auto");	
-  }); <!--End of JQuery-->
+  }); 
+	   function pageScroll() {
+    window.scrollBy(0,1);
+    scrolldelay = setTimeout(pageScroll,10);
+}
+	   
+	   <!--End of JQuery-->
   
   </script>
 	  
