@@ -7,6 +7,7 @@ html {
 
 body {  background-image: url(amazingscrollingbackground.jpg);
 	background-size: auto auto;
+	background-position: 100% 100%;
 	
 	
 }
