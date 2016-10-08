@@ -1,8 +1,8 @@
-html { 
+<!--html { 
   background: url(amazingscrollingbackground.jpg) no-repeat center; 
-}
+}-->
 
-body {  
+body {  background: url(amazingscrollingbackground.jpg) no-repeat center; 
 	height: 10000px;
 	width: 100%;
 	margin-bottom: auto;
