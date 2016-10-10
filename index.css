@@ -149,8 +149,8 @@ h3 {
     -webkit-animation-iteration-count: infinite;
     -o-animation-iteration-count: infinite;
     
-    animation-duration: 14s;
-    -webkit-animation-duration: 14s;
+    animation-duration: 16s;
+    -webkit-animation-duration: 16s;
 
     visibility: visible !important;
 }
@@ -159,7 +159,7 @@ h3 {
     transform: translateX(-100%);
   }
   100% {
-    transform: translateX(600%);
+    transform: translateX(700%);
   }
 }
 
