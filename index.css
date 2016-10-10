@@ -159,7 +159,7 @@ h3 {
     transform: translateX(-110%);
   }
   100% {
-    transform: translateX(340%);
+    transform: translateX(500%);
   }
 }
 
@@ -168,7 +168,7 @@ h3 {
     transform: translateX(-110%);
 }
   100% {
-    transform: translateX(340%);
+    transform: translateX(500%);
   }
 }
 
@@ -193,7 +193,7 @@ h3 {
 }
 @-webkit-keyframes slideLeft {
   0% {
-    transform: translateX(340%);
+    transform: translateX(500%);
   }
   100% {
     transform: translateX(-110%);
@@ -202,7 +202,7 @@ h3 {
 
 @keyframes slideLeft {
   0% {
-    transform: translateX(340%);
+    transform: translateX(500%);
 }
   100% {
     transform: translateX(-110%);
