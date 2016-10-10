@@ -149,26 +149,26 @@ h3 {
     -webkit-animation-iteration-count: infinite;
     -o-animation-iteration-count: infinite;
     
-    animation-duration: 25s;
-    -webkit-animation-duration: 25s;
+    animation-duration: 14s;
+    -webkit-animation-duration: 14s;
 
     visibility: visible !important;
 }
 @-webkit-keyframes slideRight {
   0% {
-    transform: translateX(-110%);
+    transform: translateX(-100%);
   }
   100% {
-    transform: translateX(500%);
+    transform: translateX(600%);
   }
 }
 
 @keyframes slideRight {
   0% {
-    transform: translateX(-110%);
+    transform: translateX(-100%);
 }
   100% {
-    transform: translateX(500%);
+    transform: translateX(600%);
   }
 }
 
